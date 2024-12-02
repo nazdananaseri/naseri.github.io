@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+.header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.album {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+.main-content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.song-details, .lyrics {
+    margin-bottom: 20px;
+}
+
+.song-details h3, .lyrics h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.lyrics .verse, .lyrics .chorus {
+    margin-bottom: 15px;
+}
+
+.lyrics h4 {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+
+.footer {
+    text-align: center;
+ 
+    color: white;
+    padding: 10px 0;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.about-section {
+   position: absolute;
+   right: 240px;
+   top: 800px;
+   padding: 20px;
+   line-height: 1;
+
+
+    width: 25%; 
+    margin: center; 
+    background-color: #333; 
+    color: white; 
+    border-radius: 10px; 
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.yellow-header {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0; 
+}
+
+
+.content {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+blockquote {
+    background-color: #444; 
+    padding: 15px;
+    border-left: 5px solid yellow;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 20px 0;
+}
+
+
+.video {
+    margin-top: 20px;
+}
